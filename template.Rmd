@@ -1,11 +1,8 @@
 ---
 title: "Session 3: R Markdown and Formatting"
 output:   
-  html_document:
+  github_document:
   # or pdf_document or work_document
-    toc: true
-    toc_float: true
-    code_folding: hide
 ---
 
 ```{r}
@@ -76,7 +73,7 @@ ggplot(la_df, aes(abs_norm)) + geom_histogram()
 eval = FALSE: code will be displayed but not executed; results are not included.
 echo = FALSE: code will be executed but not displayed; results are included.
 
-
+Here's a list:
 
 * List item 1
 * List item 2
