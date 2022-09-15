@@ -76,7 +76,7 @@ ggplot(la_df, aes(abs_norm)) + geom_histogram()
 eval = FALSE: code will be displayed but not executed; results are not included.
 echo = FALSE: code will be executed but not displayed; results are included.
 
-Here's a list: 
+
 
 * List item 1
 * List item 2
