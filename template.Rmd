@@ -37,7 +37,7 @@ The mean is `r mean(samp)`.
 
 # Section 3
 
-This is going to make a plot! First I generate a dataframe, then use `ggplot` to make a scatterplot and nameming a code chunk!
+This is going to make a plot! First I generate a dataframe, then use `ggplot` to make a scatter plot and naming a code chunk!
 ```{r chunk_scatterplot}
 plot_df = 
   tibble(
